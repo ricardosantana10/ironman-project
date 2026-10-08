@@ -1,26 +1,824 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Ironman</title>
+
+    <title>KAEL | O Último Guardião</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <img width="48" height="48" src="https://img.icons8.com/color/48/iron-man.png" alt="iron-man"/>
-        </div>
-        <nav>
-            <a href="">Sobre</a>
-            <a href="">Atributos</a>
-            <a href="">Conquistas</a>
+    <header class="header">
+
+        <a href="#inicio" class="logo">
+            KAEL
+        </a>
+
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#personagem">Personagem</a>
+            <a href="#atributos">Atributos</a>
+            <a href="#inventario">Inventário</a>
+            <a href="#conquistas">Conquistas</a>
+            <a href="#contato">Contato</a>
         </nav>
+
+        <a href="#contato" class="header-button">
+            Conhecer a lenda
+        </a>
+
     </header>
+
     <main>
-        <p>Iron</p>
-        <img src="imagens/WhatsApp_Image_2026-09-10_at_18.56.47__1_-removebg-preview.png" alt="iron-man">
-        <p>Man</p>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-image">
+                <img src="imagens/imagem2_rosto.png" alt="Kael, o Último Guardião">
+            </div>
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+                <span class="hero-subtitle">
+                    O ÚLTIMO GUARDIÃO
+                </span>
+
+                <h1>
+                    KAEL
+                </h1>
+
+                <div class="hero-line"></div>
+
+                <p>
+                    Um guerreiro marcado pelos deuses,
+                    condenado a caminhar entre os mundos
+                    em busca de redenção.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#personagem" class="btn btn-primary">
+                        Conhecer a história
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                    <a href="#inventario" class="btn btn-outline">
+                        Ver equipamentos
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-symbol">
+                ᛉ
+            </div>
+
+        </section>
+
+        <section class="section character" id="personagem">
+
+            <div class="section-image">
+                <img src="imagens/imagem1_personagem_sem_fundo.png"
+                    alt="Kael">
+            </div>
+
+
+            <div class="section-content">
+
+                <span class="section-number">
+                    I
+                </span>
+
+                <span class="section-label">
+                    O GUERREIRO
+                </span>
+
+                <h2>
+                    QUEM É <span>KAEL?</span>
+                </h2>
+
+                <p>
+                    Kael é um guerreiro pertencente a uma antiga
+                    linhagem de guardiões responsáveis por proteger
+                    os portões entre os nove reinos.
+                </p>
+
+                <p>
+                    Após perder sua aldeia durante a queda dos antigos
+                    deuses, Kael passou a vagar pelo mundo carregando
+                    uma única missão: descobrir quem causou a destruição
+                    de seu povo.
+                </p>
+
+                <p>
+                    Sua força vem não apenas de seus músculos,
+                    mas também da experiência adquirida em inúmeras
+                    batalhas.
+                </p>
+
+
+                <div class="character-info">
+
+                    <div class="info-box">
+
+                        <i class="fa-solid fa-user"></i>
+
+                        <div>
+
+                            <small>Nome</small>
+
+                            <strong>
+                                Kael
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <i class="fa-solid fa-skull"></i>
+
+                        <div>
+
+                            <small>Título</small>
+
+                            <strong>
+                                Último Guardião
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <i class="fa-solid fa-mountain"></i>
+
+                        <div>
+
+                            <small>Origem</small>
+
+                            <strong>
+                                Reino de Vardheim
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <i class="fa-solid fa-shield"></i>
+
+                        <div>
+
+                            <small>Classe</small>
+
+                            <strong>
+                                Guerreiro
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ATRIBUTOS ================= -->
+
+        <section class="section attributes" id="atributos">
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    II
+                </span>
+
+                <span class="section-label">
+                    HABILIDADES
+                </span>
+
+                <h2>
+                    ATRIBUTOS DO <span>GUARDIÃO</span>
+                </h2>
+
+            </div>
+
+
+            <div class="attributes-grid">
+
+
+                <article class="attribute-card">
+
+                    <div class="attribute-icon">
+                        <i class="fa-solid fa-hand-fist"></i>
+                    </div>
+
+                    <h3>
+                        FORÇA
+                    </h3>
+
+                    <p>
+                        Capaz de enfrentar criaturas gigantes
+                        usando apenas sua força física.
+                    </p>
+
+                    <div class="attribute-bar">
+                        <span style="width: 96%;"></span>
+                    </div>
+
+                    <small>
+                        96 / 100
+                    </small>
+
+                </article>
+
+
+                <article class="attribute-card">
+
+                    <div class="attribute-icon">
+                        <i class="fa-solid fa-person-running"></i>
+                    </div>
+
+                    <h3>
+                        AGILIDADE
+                    </h3>
+
+                    <p>
+                        Movimentos rápidos e precisos mesmo
+                        utilizando armaduras pesadas.
+                    </p>
+
+                    <div class="attribute-bar">
+                        <span style="width: 84%;"></span>
+                    </div>
+
+                    <small>
+                        84 / 100
+                    </small>
+
+                </article>
+
+
+                <article class="attribute-card">
+
+                    <div class="attribute-icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+
+                    <h3>
+                        FÚRIA
+                    </h3>
+
+                    <p>
+                        Quanto maior a batalha, mais poderoso
+                        Kael se torna.
+                    </p>
+
+                    <div class="attribute-bar">
+                        <span style="width: 98%;"></span>
+                    </div>
+
+                    <small>
+                        98 / 100
+                    </small>
+
+                </article>
+
+
+                <article class="attribute-card">
+
+                    <div class="attribute-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <h3>
+                        ESTRATÉGIA
+                    </h3>
+
+                    <p>
+                        Anos de batalhas transformaram Kael
+                        em um estrategista experiente.
+                    </p>
+
+                    <div class="attribute-bar">
+                        <span style="width: 88%;"></span>
+                    </div>
+
+                    <small>
+                        88 / 100
+                    </small>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INVENTÁRIO ================= -->
+
+        <section class="section inventory" id="inventario">
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    III
+                </span>
+
+                <span class="section-label">
+                    EQUIPAMENTOS
+                </span>
+
+                <h2>
+                    O ARSENAL DE <span>KAEL</span>
+                </h2>
+
+            </div>
+
+
+            <div class="inventory-content">
+
+
+                <div class="weapon-image">
+
+                    <!-- IMAGEM DA ARMA -->
+
+                    <img src="imagens/imagem3_castelo.png"
+                        alt="Arma de Kael">
+
+                </div>
+
+
+                <div class="weapon-list">
+
+
+                    <div class="weapon">
+
+                        <span class="weapon-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                DRAUGR
+                            </h3>
+
+                            <p>
+                                Machado ancestral forjado no coração
+                                das montanhas de Vardheim.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right"></i>
+
+                    </div>
+
+
+                    <div class="weapon">
+
+                        <span class="weapon-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                ESCUDO DE RUNAS
+                            </h3>
+
+                            <p>
+                                Escudo capaz de absorver impactos
+                                e devolver parte da força recebida.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right"></i>
+
+                    </div>
+
+
+                    <div class="weapon">
+
+                        <span class="weapon-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                CORRENTE DE SKAL
+                            </h3>
+
+                            <p>
+                                Correntes mágicas utilizadas para
+                                prender criaturas sobrenaturais.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right"></i>
+
+                    </div>
+
+
+                    <div class="weapon">
+
+                        <span class="weapon-number">
+                            04
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                ARMADURA DO GUARDIÃO
+                            </h3>
+
+                            <p>
+                                Proteção criada com metais encontrados
+                                nos limites dos nove reinos.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-chevron-right"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONQUISTAS ================= -->
+
+        <section class="section achievements" id="conquistas">
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    IV
+                </span>
+
+                <span class="section-label">
+                    A LENDA
+                </span>
+
+                <h2>
+                    CONQUISTAS DE <span>KAEL</span>
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <small>
+                            ANO 01
+                        </small>
+
+                        <h3>
+                            A QUEDA DE VARDHEIM
+                        </h3>
+
+                        <p>
+                            Kael sobrevive à destruição de sua terra natal
+                            e recebe o símbolo dos últimos guardiões.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <small>
+                            ANO 07
+                        </small>
+
+                        <h3>
+                            O MONSTRO DAS MONTANHAS
+                        </h3>
+
+                        <p>
+                            Derrota uma criatura que aterrorizava
+                            as aldeias próximas às montanhas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <small>
+                            ANO 12
+                        </small>
+
+                        <h3>
+                            O PORTÃO DOS MORTOS
+                        </h3>
+
+                        <p>
+                            Kael atravessa o reino dos mortos e retorna
+                            carregando uma antiga relíquia dos deuses.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <small>
+                            PRESENTE
+                        </small>
+
+                        <h3>
+                            O ÚLTIMO GUARDIÃO
+                        </h3>
+
+                        <p>
+                            Agora Kael procura o responsável pela queda
+                            de seu povo e pelo desaparecimento dos antigos deuses.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTATO ================= -->
+
+        <section class="section contact" id="contato">
+
+            <div class="contact-container">
+
+
+                <div class="contact-info">
+
+                    <span class="section-number">
+                        V
+                    </span>
+
+                    <span class="section-label">
+                        MENSAGEM
+                    </span>
+
+                    <h2>
+                        FALE COM O <span>GUARDIÃO</span>
+                    </h2>
+
+                    <p>
+                        Tem uma missão para Kael?
+                        Envie sua mensagem através do canal dos antigos guardiões.
+                    </p>
+
+
+                    <div class="contact-links">
+
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            contato@kael.com
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                            @kael.guardiao
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                            Projeto Kael
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form">
+
+                    <div class="input-group">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Digite seu nome">
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Digite seu e-mail">
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="mensagem">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            rows="6"
+                            placeholder="Escreva sua mensagem..."></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">
+
+                        Enviar mensagem
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
     </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo">
+                    KAEL
+                </a>
+
+                <p>
+                    A história de um guerreiro que se recusou
+                    a ser esquecido pelos deuses.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Navegação
+                </h3>
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#personagem">
+                    Personagem
+                </a>
+
+                <a href="#atributos">
+                    Atributos
+                </a>
+
+                <a href="#inventario">
+                    Inventário
+                </a>
+
+                <a href="#conquistas">
+                    Conquistas
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Projeto
+                </h3>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+                <a href="#">
+                    Sobre
+                </a>
+
+                <a href="#">
+                    Créditos
+                </a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>
+                    Siga a lenda
+                </h3>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Ricardo Santana — Todos os direitos reservados.
+            </p>
+
+            <p>
+            </p>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
